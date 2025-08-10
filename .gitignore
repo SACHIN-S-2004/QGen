@@ -1,1 +1,9 @@
 .env
+
+# Ignore specific files in root
+math_questions.docx
+
+# Ignore specific files in Data folder
+Data/final qpaper.pdf
+Data/old qgen1.sql
+Data/qgen1.sql
