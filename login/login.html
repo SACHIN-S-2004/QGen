@@ -1,0 +1,25 @@
+<div class="modal-body p-4">
+    <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close" onclick="closePage()"></button>
+    <div class="mb-4">
+      <img src="logo.png" alt="Logo" class="img-fluid mx-auto" style="height: 60px;">
+      <p class="text-muted fs-5 mt-2">Securely create and manage question papers with ease!</p>
+    </div>
+    <form id="loginForm">
+      <div class="form-group mb-3">
+        <label for="username" class="form-label fw-semibold">Username or Email</label>
+        <input type="text" id="username" name="name" class="form-control rounded-3 shadow-sm" placeholder="Enter your username or email" required>
+      </div>
+      <div class="form-group mb-4">
+        <label for="password" class="form-label fw-semibold">Password</label>
+        <input type="password" id="password" name="pass" class="form-control rounded-3 shadow-sm" placeholder="Enter your password" required>
+      </div>
+      <div id="loginError" class="text-danger text-center small mb-3" aria-live="polite"></div>
+      <div class="text-right mb-3">
+        <a href="login/fPassword.php" class="text-primary text-decoration-none small fw-medium">Forgot Password?</a>
+      </div>
+      <button type="submit" class="btn btn-primary w-100 rounded-1 shadow-sm">Login</button>
+      <div class="text-center mt-3">
+        <a href="registration/registration.php" class="text-primary text-decoration-none small fw-medium">Don’t have an account? Sign up</a>
+      </div>
+    </form>
+</div>
